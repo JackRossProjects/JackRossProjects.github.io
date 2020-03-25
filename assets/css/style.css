@@ -1112,7 +1112,7 @@ figure {
 
 .side-image {
 	position: absolute;
-	background: url("../images/about.jpg") scroll center no-repeat;
+	background: url("../images/about.JPG") scroll center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
