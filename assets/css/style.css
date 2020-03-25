@@ -919,7 +919,7 @@ figure {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr='#fd735a', GradientType=1 );
 	bottom: 8px;
 	left: 8px;
-	opacity: 0;
+	opacity: 1;
 	padding: 25px;
 	position: absolute;
 	right: 8px;
