@@ -42,7 +42,7 @@
 
 body {
 	font: 400 12px/1.8 'Poppins', sans-serif;
-	color: #5b5963;
+	color: rgb(88, 81, 80);
 	overflow-x: hidden;
 }
 
@@ -52,12 +52,12 @@ img {
 }
 
 a {
-	color: #49e2d6;
+	color: #9e4343;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #999;
+	color: rgb(88, 81, 80);
 }
 
 a, a:hover, a:active, a:visited, a:focus {
@@ -473,7 +473,7 @@ textarea.form-control {
 	text-align: center;
 	top: -40px;
 	z-index: 0;
-	opacity: 0.05;
+	opacity: .01;
 	font-weight: 700;
 }
 
@@ -536,7 +536,7 @@ textarea.form-control {
 	background: -ms-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
 	background: linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr='#fd735a', GradientType=1 );
-	opacity: 0;
+	opacity: 0.0;
 }
 
 .slider:after {
@@ -586,7 +586,7 @@ textarea.form-control {
 	left: 0;
 	right: 0;
 	background: url(../images/pattern1.png);
-	background-size: 217px;
+	background-size: 200px;
 	background-position: left center;
 	background-repeat: no-repeat;
 	z-index: 31;
@@ -595,10 +595,10 @@ textarea.form-control {
 
 .hello,
 .who-creates {
-	font-size: 16px;
+	font-size: 18px;
 	text-transform: none;
 	margin: 15px 0;
-	font-weight: 200;
+	font-weight: 300;
 }
 
 /*Mouse animate icon*/
@@ -614,7 +614,7 @@ textarea.form-control {
 	margin-left: -15px;
 	display: block;
 	z-index: 10;
-	opacity: 0.4;
+	opacity: 1;
 }
 
 .mouse-icon .wheel {
@@ -805,7 +805,7 @@ textarea.form-control {
 }
 
 .navbar-custom .nav li.active, .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus, .navbar-custom .navbar-nav > li.active a {
-	background: rgba(253,115,90,1);
+	background: rgb(0, 0, 0);
 	color: #fff;
 	outline: 0 none;
 }
@@ -869,7 +869,7 @@ textarea.form-control {
 
 #filter li:hover,
 #filter li.active {
-	background: rgba(253,115,90,1);
+	background: rgb(0, 0, 0);
 	color: #fff;
 }
 
@@ -909,17 +909,17 @@ figure {
 	position: relative;
 }
 .list-items-container .list-item figcaption {
-	background: rgba(250,31,85,1);
-	background: -moz-linear-gradient(45deg, rgba(250,31,85,0.8) 0%, rgba(253,115,90,0.8) 100%);
+	background: rgb(0, 0, 0);
+	background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.8) 0%, rgba(253,115,90,0.8) 100%);
 	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(250,31,85,0.8)), color-stop(100%, rgba(253,115,90,1)));
-	background: -webkit-linear-gradient(45deg, rgba(250,31,85,0.8) 0%, rgba(253,115,90,0.8) 100%);
-	background: -o-linear-gradient(45deg, rgba(250,31,85,0.8) 0%, rgba(253,115,90,0.8) 100%);
-	background: -ms-linear-gradient(45deg, rgba(250,31,85,0.8) 0%, rgba(253,115,90,0.8) 100%);
-	background: linear-gradient(45deg, rgba(250,31,85,0.8) 0%, rgba(253,115,90,0.8) 100%);
+	background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.8) 0%, rgba(253,115,90,0.8) 100%);
+	background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.8) 0%, rgba(253,115,90,0.8) 100%);
+	background: -ms-linear-gradient(45deg, rgba(0, 0, 0, 0.8) 0%, rgba(253,115,90,0.8) 100%);
+	background: linear-gradient(45deg, rgba(0, 0, 0, 0.8) 0%, rgba(253,115,90,0.8) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr='#fd735a', GradientType=1 );
 	bottom: 8px;
 	left: 8px;
-	opacity: 1;
+	opacity: .7;
 	padding: 25px;
 	position: absolute;
 	right: 8px;
@@ -1073,7 +1073,7 @@ figure {
 }
 
 .iconbox-icon {
-	color: rgba(253,115,90,1);
+	color: rgb(88, 81, 80);
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -1137,7 +1137,7 @@ figure {
 	top: 0;
 	font-size: 32px;
 	line-height: 1;
-	color: rgba(253,115,90,1);
+	color: rgb(88, 81, 80);
 }
 
 .iconboxleft-text {
@@ -1237,7 +1237,7 @@ figure {
     padding: 3px 10px;
     border-radius: 3px;
     box-shadow: -6px 10px 40px rgba(0,0,0,0.06);
-    color: #429f98;
+    color: rgb(88, 81, 80);
     transition: all 0.5s ease 0s;
     text-transform: capitalize;
 }
@@ -1247,7 +1247,7 @@ figure {
 }
 
 .blogList:hover .blogList-img span {
-    background: rgba(253,115,90,1);
+    background: rgb(88, 81, 80);
     color: #fff;
 }
 
@@ -1269,7 +1269,7 @@ figure {
     -ms-transition: all 0.4s ease-in-out 0s;
     -o-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s;
-    background: rgba(253,115,90,1);
+    background: rgb(88, 81, 80);
     color: #fff;
     max-width: 170px;
     margin: 10px auto;
@@ -1329,7 +1329,7 @@ figure {
 .blog-detail-content blockquote {
     font-size: 13px;
     background: #f5f5f5;
-    border-color: rgba(253,115,90,1);
+    border-color: rgb(88, 81, 80);
 }
 
 .blog-detail-content img {
@@ -1365,7 +1365,7 @@ figure {
     padding: 3px 15px;
     color: #fff;
     text-transform: capitalize;
-    background: rgba(253,115,90,1);
+    background: rgb(88, 81, 80);
     border-radius: 2px;
     margin: 15px 0;
 }
@@ -1396,7 +1396,7 @@ figure {
 }
 
 .tags:hover {
-	background-color: rgba(253,115,90,1);
+	background-color: rgb(88, 81, 80);
 	color: #ffffff;
 }
 
